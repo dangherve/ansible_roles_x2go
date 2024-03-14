@@ -1,0 +1,7 @@
+- name: Install x2go
+  apt:
+    name: "{{ x2go_packages }}"
+    state: present
+    update_cache: yes
+
+

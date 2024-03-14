@@ -1,0 +1,17 @@
+
+- name: remove x2go
+  apt:
+    name: "{{ x2go_packages }}"
+    state: absent
+    purge: true
+
+
+- name: remove x2go
+  apt:
+    clean: true
+
+
+- name: remove x2go.list
+  file:
+    path: /etc/apt/sources.list.d/x2go.list
+    state: absent

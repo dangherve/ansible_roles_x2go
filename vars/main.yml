@@ -1,0 +1,5 @@
+---
+x2go_packages:
+  - x2goserver
+  - x2goclient
+
