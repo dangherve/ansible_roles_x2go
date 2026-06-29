@@ -1,5 +1,6 @@
 ---
 x2go_packages:
   - x2goserver
+  - x2goserver-xsession
   - x2goclient
 
